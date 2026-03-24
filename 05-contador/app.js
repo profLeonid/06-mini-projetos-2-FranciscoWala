@@ -91,5 +91,4 @@ function handleClick (){
         criarLinha(listaNum[i],listaPar[i],listaImpar[i],listaMult5[i],listaPotencia[i])
     }
 
-
 }
