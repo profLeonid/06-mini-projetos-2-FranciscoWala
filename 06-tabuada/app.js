@@ -9,28 +9,33 @@ function criarListaNumeros(quantidade){
 }
 function criarListaSomados(quantidade){
     let listaNumeroSomados = []
-    let soma = 1
     for (let i = 1; i<= 10; i++ ){
-        soma = quantidade + i
+        let soma = quantidade + i
         listaNumeroSomados.push(soma)
     }
     return listaNumeroSomados
 }
 function criarListaSub(quantidade){
     let listaNumeroSub = []
-    let sub = 1
     for (let i = 1; i<= 10; i++ ){
-        sub = quantidade - i
+        let sub = quantidade - i
         listaNumeroSub.push(sub)
     }
     return listaNumeroSub
 }
 function criarListaMult(quantidade){
     let listaNumeroMult = []
-    let mult = 0
     for (let i = 1 ; i <= 10 ; i++){
-        mult = quantidade * i
+        let mult = quantidade * i
         listaNumeroMult.push(mult)
     }
     return listaNumeroMult
+}
+function criarListaDivisao(quantidade){
+    let listaNumeroDiv = []
+    for(let i = 1; i<=10; i++ ){
+        let divisao = quantidade / i
+        listaNumeroDiv.push(divisao.toFixed(2))
+    }
+    return listaNumeroDiv
 }
