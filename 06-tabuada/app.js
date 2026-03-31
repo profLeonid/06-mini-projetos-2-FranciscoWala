@@ -25,3 +25,12 @@ function criarListaSub(quantidade){
     }
     return listaNumeroSub
 }
+function criarListaMult(quantidade){
+    let listaNumeroMult = []
+    let mult = 0
+    for (let i = 1 ; i <= 10 ; i++){
+        mult = quantidade * i
+        listaNumeroMult.push(mult)
+    }
+    return listaNumeroMult
+}
